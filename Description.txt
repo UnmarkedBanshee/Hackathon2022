@@ -1,0 +1,18 @@
+﻿In a world emerging from COVID and necessary isolation, the want and need to socialize is exponentially increasing. In colleges, student interaction and social events is what makes college so fun, but with large campuses and poorly advertised events, many students lack awareness of events they are interested in. Our app will have a Netflix-like user interface, but instead of movies and tv shows, events. It will have a home page with a bunch of different events happening on campus, pages with events organized by category (parties, studying, sports, theatre, art, etc.), and an integrated maps system the user can use to get to the desired event. Users will also have the option to upload any events they want, for others to attend.
+
+
+
+
+To further enhance the experience of students using -insert app name here-, we plan on implementing a real-time recommendation API. This recommendation engine will utilize content-based filtering and collaborative filtering to produce accurate results. To execute this, we plan on utilizing Microsoft’s Azure Recommendation Service; Azure’s advanced machine learning, Databricks, and Data Science Virtual Machines make Azure the ideal platform to create this API.
+
+
+Once the recommendation engine is put into effect, we will use it to organize the home page of our app. The top events shown to users will be decided based on the recommendation API, while also adding some random (wild-card) events at the top. The addition of wild-card events will enhance our data and recommendations based on how the user interacts with it (clicks on the event, rates it, etc).
+
+
+If the user is new to the app and does not have a lot of data associated with them, then the recommendations will be based more heavily on collaborative filtering. The more data collected from the individual user, however, the more the recommendation will rely on content-based filtering.
+
+
+The categories used for content-based filtering are the following: distance from current location, number of potential attendees, day of the week, time, and the type of event/category. Data is collected when a user creates an event, and when a user decides to RSVP to that event, that data is stored under that user’s particular ID. For example, if a user clicks on an a cappella performance that takes place on Saturday at 7:00 pm, .5 miles from their current location, and will have around 200 attendees, all of that data will be stored and used to gauge the user’s preferences.
+
+
+Once up and running, we also plan on adding extra features to insert app name. These features include the ability to add events to your calendar from the app, a video chatting option, an over 21 feature, and more.

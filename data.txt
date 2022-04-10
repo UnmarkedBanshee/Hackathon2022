@@ -1,0 +1,9 @@
+.!toplevel.!entry
+PY_VAR0
+PY_VAR2
+PY_VAR3
+.!toplevel.!entry2
+
+Event Name: {event_name}
+
+Event Name: {event_name}
