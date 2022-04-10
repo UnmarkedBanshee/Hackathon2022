@@ -1,0 +1,8 @@
+We have a backend prefrances dat filtering system. We use this to grab prefrances from the user and we use that to recommend them events to attend.
+
+Our frontend is an interactive app that is the main thing. Allows them to create events and browse existing events.
+
+
+
+
+Thanks for your time!!
